@@ -9,6 +9,7 @@ router.get('/notes', (req, res) =>
 );
 
 
+
 // GET Route for homepage index.html
 // "*" will grab all the routes that haven't been created yet...make sure this is at the bottom because routes are read top to bottom
 router.get('*', (req, res) =>
